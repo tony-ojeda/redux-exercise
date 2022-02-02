@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Candidates from './components/candidates/candidates.component';
+import Filters from './components/filters/filters.component';
+import ResuemVotes from './components/resume-votes/resume-votes.component';
+import TotalVotes from './components/total-votes/total-votes.component';
+
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Candidates></Candidates>
+      <div className="operations">
+        <div className="filter">
+          <Filters></Filters>
+        </div>
+        <div className="resume">
+          <div className="resume__total">
+            <TotalVotes></TotalVotes>
+          </div>
+          <div className="resume__detail">
+            <ResuemVotes></ResuemVotes>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
+

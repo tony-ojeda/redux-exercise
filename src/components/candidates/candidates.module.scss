@@ -1,0 +1,29 @@
+.candidates {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.candidate {
+  width: 150px;
+  box-shadow: 0px 5px 15px rgba(0, 0 , 0, .35);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &__photo {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    object-fit: cover;
+  }
+
+  &__title {
+    display: inline-block;
+    padding: 10px;
+  }
+}
