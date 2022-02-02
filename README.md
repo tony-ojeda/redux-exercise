@@ -10,7 +10,7 @@ See Candidates
 #### Technologies
 - React
 - Redux Toolkit
-- CSS
+- CSS 
 - SASS
 - HTML
 - JS
