@@ -18,10 +18,7 @@ See Candidates
 ### VIEW
 
 ### PRINCIPAL
-![](https://github.com/tony-ojeda/assesment-make/blob/main/public/home.png)
-
-### MODAL
-![](https://github.com/tony-ojeda/assesment-make/blob/main/public/modal.png)
+![](https://github.com/tony-ojeda/redux-exercise/blob/main/public/home.png)
 
 ### INSTALL
 `npm run install`
